@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int n,i=0,x,t=0;
+scanf("%d",&n);
+while(i<=n)
+{
+t++;
+i=i+(t*(t+1))/2;
+}
+printf("%d",t-1);
+}
